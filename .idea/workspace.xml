@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73d0acd-24be-44db-9644-67639868e838" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/C5T2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C5T2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/credit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/credit.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/Untitled.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/script.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="homework51t2.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homework51t2.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_1.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notebooks/Preprocessing/test_1.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="6" />
             </state>
           </provider>
         </entry>
@@ -38,6 +46,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;Others&quot;, &quot;GS&quot;, &quot;Uni&quot;, &quot;HS&quot;, &quot;Others&quot;, &quot;Others&quot;, &quot;Others&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;GS&quot;, &quot;Uni&quot;, &quot;HS&quot;,&quot;Others&quot;]</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,6 +63,7 @@
         <option value="$PROJECT_DIR$/notebooks/test_1.ipynb" />
         <option value="$PROJECT_DIR$/data/raw/credit.csv" />
         <option value="$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb" />
+        <option value="$PROJECT_DIR$/TEST.MD" />
       </list>
     </option>
   </component>
@@ -66,11 +83,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="82" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -78,18 +94,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="C5T2" type="cbb8eebc:String" user="C5T2" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="C5T2" type="cbb8eebc:String" user="C5T2" />
+              <item name="notebooks" type="cbb8eebc:String" user="notebooks" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="C5T2" type="b2602c69:ProjectViewProjectNode" />
               <item name="C5T2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C5T2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C5T2" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C5T2" type="b2602c69:ProjectViewProjectNode" />
@@ -119,7 +145,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -222,26 +248,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12589413" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="The R Graphics" order="3" />
       <window_info anchor="right" id="Packages" order="3" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -258,6 +284,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notebooks/test_1.ipynb" />
     <entry file="file://$PROJECT_DIR$/notebooks/test_1.ipynb" />
     <entry file="file://$PROJECT_DIR$/notebooks/test_1.ipynb" />
@@ -268,10 +308,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-973" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="19" selection-end-line="48" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="26" />
+          <selected id="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/Preprocessing/test_1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
