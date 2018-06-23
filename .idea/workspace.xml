@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c73d0acd-24be-44db-9644-67639868e838" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/Preprocessing/homework_C5T2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/titanic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/homework51t2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/script.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing/test_1.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="c73d0acd-24be-44db-9644-67639868e838" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
